@@ -1,3 +1,5 @@
+import heroImage from './assets/hero.png'
+
 function App() {
   return (
     <>
@@ -14,7 +16,7 @@ function App() {
         </nav>
       </header>
 
-      <div className="banner" id="home">
+      <div className="banner" id="home" style={{ backgroundImage: `linear-gradient(180deg, rgba(0, 0, 0, 0.28) 0%, rgba(0, 0, 0, 0.45) 100%), url(${heroImage})` }}>
         <div className="banner-content">
           <p className="eyebrow">Hi, I'm Joy Lee</p>
           <h1>Machine Learning & Biosensor Engineer</h1>
